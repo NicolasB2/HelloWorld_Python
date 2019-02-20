@@ -1,14 +1,24 @@
 # Print by console string values
-x = 1
-if x == 1:
-    print ("hello")
-
 mystring = 'hello'
 print(mystring)
 mystring = "hello"
 print(mystring)
 
-varx = 7
+#Print by console int Values
+one = 1
+two = 2
+three = one + two
+six = 3 + 3
 
-print(varx)
+print(three)
+print(six)
 print (5+5)
+
+
+x = 1
+if x == 1:
+    print ("hello")
+
+
+
+
