@@ -1,10 +1,16 @@
-# Print by console string values
+# to declare variables type string
 mystring = 'hello'
 print(mystring)
 mystring = "hello"
 print(mystring)
 
-#Print by console int Values
+# concatenate String
+hello = "hello"
+world = "world"
+helloworld = hello + " " + world
+print(helloworld)
+
+#to declarate variables type Number
 one = 1
 two = 2
 three = one + two
@@ -15,6 +21,7 @@ print(six)
 print (5+5)
 
 
+# conditional (if)
 x = 1
 if x == 1:
     print ("hello")
