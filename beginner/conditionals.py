@@ -1,36 +1,38 @@
-print ("Write the letter corresponding to the operation you want")
-print ("plus -> p")
-print ("minus -> m")
-print ("divide -> d")
-print ("multiply -> x")
+#initialize variables
+x = 2
+name = "John"
+age = 23
 
-while 1<2:
-    request = raw_input();
+#logical expressions
+print(x == 2)
+print(x == 3)
+print(x < 3)
 
-    if request == "p":
-        print ("Enter the first number")
-        x = input()
-        print ("Enter the second number")
-        y = input()
-        print (x+y)
+#compare
+x = [1,2,3]
+y = [1,2,3]
 
-    if request == "m":
-        print ("Enter the first number")
-        x = input()
-        print ("Enter the second number")
-        y = input()
-        print (x-y)
+print(x == y)
+print(x is y)
 
-    if request == "d":
-        print ("Enter the first number")
-        x = input()
-        print ("Enter the second number")
-        y = input()
-        print (x/y)
+#AND  OR  NOT
+if name == "John" and age == 23:
+    print("Your name is John, and you are also 23 years old.")
 
-    if request == "x":
-        print ("Enter the first number")
-        x = input()
-        print ("Enter the second number")
-        y = input()
-        print (x*y)
+if name == "John" or name == "Rick":
+    print("Your name is either John or Rick.")
+
+if not (False):
+    print ("Your name is not Rick")
+
+#operator in
+if name in ["John", "Rick"]:
+    print("Your name is either John or Rick.")
+
+#conditional
+if x == 2:
+    print("x equals two!")
+elif x<2:
+    print("x is minor than two.")
+else:
+    print("x is upper than two.")
