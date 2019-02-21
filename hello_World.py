@@ -15,7 +15,6 @@ print(six)
 
 a, b = 3, 4
 print(a,b)
-
 print (5+5)
 
 #to declarate variables type
