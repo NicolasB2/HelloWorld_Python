@@ -31,3 +31,29 @@ data = ("John", "Doe", 53.44)
 format_string = "Hello %s %s. Your current balance is $%s."
 print(format_string % data)
 print("")
+
+#count characters
+astring = "Hello world!"
+print(len(astring))
+
+#get a index of first char
+print(astring.index("o"))
+
+#count especific character
+print(astring.count("l"))
+
+#get a sub string
+print(astring[3:7])
+
+#reverse de string
+print(astring[::-1])
+
+#Uppercase and lowercase
+print(astring.upper())
+print(astring.lower())
+
+#starts and end with
+print(astring.startswith("Hello"))
+print(astring.endswith("asdfasdfasdf"))
+
+#
