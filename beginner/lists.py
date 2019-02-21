@@ -14,7 +14,6 @@ for x in my_list:
     print(x)
 print(" ");
 
-
 #third example
 numbers = []
 strings = []
@@ -30,3 +29,12 @@ strings.append("world")
 print(numbers)
 print(strings)
 print(names);
+
+#Added two list
+even_numbers = [2,4,6,8]
+odd_numbers = [1,3,5,7]
+all_numbers = odd_numbers + even_numbers
+print(all_numbers)
+
+#Multiplicated a list
+print([1,2,3] * 3)

@@ -1,36 +1,27 @@
-#to declarate variables type String
-hello = "hello"
-world = "world"
-helloworld = hello + " " + world
-print(helloworld)
-
 #to declarate variables type Number
-one = 1
-two = 2
-three = one + two
-print(three)
+Adding = 5+3
+print (Adding)
 
-six = 3 + 3
-print(six)
+subtracting = 0-10
+print (subtracting)
 
-a, b = 3, 4
-print(a,b)
-print (5+5)
+remainder = 11 % 3
+print(remainder)
 
-#to declarate variables type
+squared = 7 ** 2
+print(squared)
+
+cubed = 2 ** 3
+print(cubed)
+
+#to declarate variables
+myint = 6
+print(myint)
+myint = int(6.6)
+print(myint)
+
+#to declarate variables type float
 myfloat = 7.0
 print(myfloat)
 myfloat = float(7)
 print(myfloat)
-
-#lecture from console
-print ("write a word")
-word = raw_input()
-print ("Your word was "+word)
-
-x = input("Type a first number \n")
-y = input("Type a second number \n")
-print (x+y)
-
-num = float(input("Type a number \n"))
-print (num)
