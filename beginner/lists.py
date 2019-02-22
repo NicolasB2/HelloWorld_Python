@@ -38,3 +38,15 @@ print(all_numbers)
 
 #Multiplicated a list
 print([1,2,3] * 3)
+
+#split and count characters
+sentence = "the quick brown fox jumps over the lazy dog"
+words = sentence.split()
+word_lengths = [len(word) for word in words if word != "the"]
+print(words)
+print(word_lengths)
+
+#select only the numbers wich to carry out the conditional
+numbers = [34.6, -203.4, 44.9, 68.3, -12.2, 44.6, 12.7]
+newlist = [int(x) for x in numbers if x > 0]
+print(newlist)

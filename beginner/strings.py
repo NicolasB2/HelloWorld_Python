@@ -55,5 +55,3 @@ print(astring.lower())
 #starts and end with
 print(astring.startswith("Hello"))
 print(astring.endswith("asdfasdfasdf"))
-
-#
