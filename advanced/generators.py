@@ -22,3 +22,16 @@ def lottery():
 
 for j in lottery():
        print(j)
+
+
+# method of fibonacci with yield generator
+def fib(num):
+    a, b = 1, 1
+    x = 0
+    while x<num:
+        yield a
+        a, b = b, a + b
+        x+=1
+
+for n in fib(7):
+    print (n)
