@@ -1,16 +1,17 @@
-# yield save a retorn a generator with all instaneces of n
-def contador(max):
+# yield save a return a generator with all instances of n
+def meter(max):
     n=0
     while n < max:
             yield n
             n=n+1
 
-mycont = contador(5)
+mycont = meter(5)
 for i in mycont:
     print(i)
+print ("---------")
 
 
-# example of lotery with yield generator and random
+# example of lottery with yield generator and random
 import random
 def lottery():
     # returns 6 numbers between 1 and 40
@@ -22,6 +23,7 @@ def lottery():
 
 for j in lottery():
        print(j)
+print ("---------")
 
 
 # method of fibonacci with yield generator
@@ -35,3 +37,4 @@ def fib(num):
 
 for n in fib(7):
     print (n)
+print ("---------")
