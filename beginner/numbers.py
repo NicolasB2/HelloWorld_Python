@@ -1,27 +1,26 @@
 #to declarate variables type Number
 Adding = 5+3
-print (Adding)
+print ("Adding: %s"%Adding)
 
 subtracting = 0-10
-print (subtracting)
+print ("subtracting: %s"%subtracting)
+
+multiplication = 3*3
+print("times: %s"%multiplication)
+
+division = 10/2
+print("division: %s"%division)
+
+quotient = 8//3
+print ("quotient: %s"%quotient)
 
 remainder = 11 % 3
-print(remainder)
-
-squared = 7 ** 2
-print(squared)
+print("remainder: %s"%remainder)
 
 cubed = 2 ** 3
-print(cubed)
+print("cubed: %s"%cubed)
 
-#to declarate variables
-myint = 6
-print(myint)
-myint = int(6.6)
-print(myint)
-
-#to declarate variables type float
-myfloat = 7.0
-print(myfloat)
-myfloat = float(7)
-print(myfloat)
+#some functions
+print ("Absolute: %s"%abs(-3.0))
+print ("Maximum: %s"%max(3,45,6,7))
+print ("Minimum: %s"%min(32,23,2,13,4.3))
