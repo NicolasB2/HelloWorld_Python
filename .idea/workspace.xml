@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab2288d9-82f5-4864-84dd-8ec6b43f27a6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/3.Advanced/file_write.py" beforeDir="false" afterPath="$PROJECT_DIR$/3.Advanced/file_write.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/write.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/write.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/json.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pickle.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Advanced/serialization.py" beforeDir="false" afterPath="$PROJECT_DIR$/3.Advanced/serialization.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,17 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/3.Advanced/file_write.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,12 +30,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/advanced/generators.py" />
-        <option value="$PROJECT_DIR$/3.Advanced/serialization.py" />
         <option value="$PROJECT_DIR$/2.Intermediate/functions.py" />
         <option value="$PROJECT_DIR$/3.Advanced/files.py" />
         <option value="$PROJECT_DIR$/sources/read.txt" />
         <option value="$PROJECT_DIR$/3.Advanced/file_read.py" />
         <option value="$PROJECT_DIR$/3.Advanced/file_write.py" />
+        <option value="$PROJECT_DIR$/sources/seralization.txt" />
+        <option value="$PROJECT_DIR$/sources/pickle.txt" />
+        <option value="$PROJECT_DIR$/sources/json.txt" />
+        <option value="$PROJECT_DIR$/3.Advanced/serialization.py" />
       </list>
     </option>
   </component>
@@ -99,6 +94,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Nicolas\git\Python_Course\sources" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -111,7 +111,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.file_write">
+  <component name="RunManager" selected="Python.serialization (1)">
     <configuration name="file_read" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HelloWorld_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,10 +219,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.serialization (1)" />
         <item itemvalue="Python.file_write" />
         <item itemvalue="Python.file_read" />
         <item itemvalue="Python.functions" />
-        <item itemvalue="Python.serialization (1)" />
         <item itemvalue="Python.generators" />
       </list>
     </recent_temporary>
@@ -232,7 +232,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -257,13 +256,6 @@
     <entry file="file://$PROJECT_DIR$/advanced/file_write.py" />
     <entry file="file://$PROJECT_DIR$/advanced/serialization.py" />
     <entry file="file://$PROJECT_DIR$/advanced/generators.py" />
-    <entry file="file://$PROJECT_DIR$/3.Advanced/serialization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2.Intermediate/functions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -292,10 +284,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/3.Advanced/generators.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/3.Advanced/file_write.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/serialization.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/seralization.txt">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/json.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/pickle.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.Advanced/serialization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
