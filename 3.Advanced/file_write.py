@@ -5,5 +5,7 @@ f.close()
 
 #Add line in txt file
 f = open ("../sources/write.txt", "a")
-f.write("by Nicolas")
+f.write("by Nicolas\n")
+f.write("05/04/2019\n")
+f.write("icesi university")
 f.close()
