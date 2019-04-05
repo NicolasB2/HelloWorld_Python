@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab2288d9-82f5-4864-84dd-8ec6b43f27a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sources/json.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/pickle.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.Advanced/functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.Advanced/serialization.py" beforeDir="false" afterPath="$PROJECT_DIR$/3.Advanced/serialization.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +37,8 @@
         <option value="$PROJECT_DIR$/sources/pickle.txt" />
         <option value="$PROJECT_DIR$/sources/json.txt" />
         <option value="$PROJECT_DIR$/3.Advanced/serialization.py" />
+        <option value="$PROJECT_DIR$/3.Advanced/exceptions.py" />
+        <option value="$PROJECT_DIR$/3.Advanced/functions.py" />
       </list>
     </option>
   </component>
@@ -59,11 +59,6 @@
             <path>
               <item name="Python_Course" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python_Course" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python_Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python_Course" type="462c0819:PsiDirectoryNode" />
-              <item name="1.Beginner" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python_Course" type="b2602c69:ProjectViewProjectNode" />
@@ -111,7 +106,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.serialization (1)">
+  <component name="RunManager" selected="Python.functions (1)">
+    <configuration name="exceptions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="HelloWorld_Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3.Advanced" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.Advanced/exceptions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="file_read" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HelloWorld_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,7 +170,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="functions (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HelloWorld_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -162,32 +178,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2.Intermediate" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3.Advanced" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2.Intermediate/functions.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="generators" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="HelloWorld_Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced/generators.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.Advanced/functions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.functions (1)" />
+        <item itemvalue="Python.exceptions" />
         <item itemvalue="Python.serialization (1)" />
         <item itemvalue="Python.file_write" />
         <item itemvalue="Python.file_read" />
-        <item itemvalue="Python.functions" />
-        <item itemvalue="Python.generators" />
       </list>
     </recent_temporary>
   </component>
@@ -314,6 +309,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.Advanced/exceptions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.Beginner/conditionals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.Advanced/functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
