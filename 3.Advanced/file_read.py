@@ -12,7 +12,6 @@ dato2 = g.readline()
 print(dato2)
 g.close()
 
-
 #'Hello\nWord\n'
 h = open('../sources/read.txt')
 dato3 = h.read()

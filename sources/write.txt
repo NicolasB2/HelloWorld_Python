@@ -1,1 +1,3 @@
-write
+first example
+of write file
+by Nicolas
